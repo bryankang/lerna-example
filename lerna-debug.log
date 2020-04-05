@@ -1,0 +1,12 @@
+0 silly argv {
+0 silly argv   _: [ 'add' ],
+0 silly argv   scope: 'bkbkbk-a',
+0 silly argv   globs: [],
+0 silly argv   lernaVersion: '3.20.2',
+0 silly argv   '$0': '/Users/bryan/development/sandbox/lerna-example/node_modules/.bin/lerna',
+0 silly argv   pkg: 'bkbkbk-shared'
+0 silly argv }
+1 notice cli v3.20.2
+2 verbose rootPath /Users/bryan/development/sandbox/lerna-example
+3 error Error: 404 Not Found - GET https://registry.yarnpkg.com/bkbkbk-shared - Not found
+3 error     at /Users/bryan/development/sandbox/lerna-example/node_modules/@evocateur/npm-registry-fetch/check-response.js:104:15

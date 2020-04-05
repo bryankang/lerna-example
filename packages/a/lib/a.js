@@ -1,5 +1,5 @@
 "use strict";
-const shared = require("@bkbkbk/shared");
+const shared = require("bryankang-shared");
 
 module.exports = a;
 
