@@ -22,5 +22,6 @@
   },
   "dependencies": {
     "@bkbkbk/shared": "^1.0.0"
-  }
+  },
+  "gitHead": "3ffa76163044c876e62065168e6b184e02c08485"
 }
