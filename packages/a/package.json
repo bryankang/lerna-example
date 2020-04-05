@@ -1,6 +1,6 @@
 {
   "name": "@bkbkbk/a",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "> TODO: description",
   "author": "bryankang <user@example.com>",
   "homepage": "",
@@ -14,7 +14,8 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "https://registry.yarnpkg.com"
+    "registry": "https://registry.yarnpkg.com",
+    "access": "public"
   },
   "scripts": {
     "start": "node lib/a.js",
@@ -23,5 +24,5 @@
   "dependencies": {
     "@bkbkbk/shared": "^1.0.0"
   },
-  "gitHead": "5b1c6a8235578120e3adb861ad7a5331efe3f653"
+  "gitHead": "cccadf60cd844bdf9bb374b4908a8328d2684669"
 }
