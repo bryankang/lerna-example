@@ -1,6 +1,6 @@
 {
   "name": "@bkbkbk/a",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "> TODO: description",
   "author": "bryankang <user@example.com>",
   "homepage": "",
@@ -22,7 +22,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@bkbkbk/shared": "^1.0.7"
+    "@bkbkbk/shared": "^1.0.8"
   },
   "gitHead": "8921a9f0e4d6e5e0214cb58479916d7543c2262f"
 }
