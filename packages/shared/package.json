@@ -1,6 +1,6 @@
 {
   "name": "bryankang-shared",
-  "version": "1.0.9",
+  "version": "1.0.12",
   "description": "> TODO: description",
   "author": "bryankang <user@example.com>",
   "homepage": "",
@@ -20,5 +20,5 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "gitHead": "37acd194b835d478a8381c139e7aca06053107de"
+  "gitHead": "b55bb1e20f51176bcd89d5caffdd7002ff05838e"
 }
