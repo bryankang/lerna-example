@@ -1,0 +1,61 @@
+Arguments: 
+  /Users/bryan/.nvm/versions/node/v12.16.1/bin/node /usr/local/Cellar/yarn/1.15.2/libexec/bin/yarn.js install
+
+PATH: 
+  /Users/bryan/development/sandbox/lerna-example/packages/a/node_modules/.bin:/Users/bryan/development/sandbox/lerna-example/packages/node_modules/.bin:/Users/bryan/development/sandbox/lerna-example/node_modules/.bin:/Users/bryan/development/sandbox/node_modules/.bin:/Users/bryan/development/node_modules/.bin:/Users/bryan/node_modules/.bin:/Users/node_modules/.bin:/node_modules/.bin:/Users/bryan/.nvm/versions/node/v12.16.1/bin:/var/folders/6v/f49lr0cd77d08rc09zqwlgjh0000gn/T/yarn--1586090874823-0.5371743550679966:/Users/bryan/development/sandbox/lerna-example/node_modules/.bin:/Users/bryan/.config/yarn/link/node_modules/.bin:/Users/bryan/.nvm/versions/node/v12.16.1/libexec/lib/node_modules/npm/bin/node-gyp-bin:/Users/bryan/.nvm/versions/node/v12.16.1/lib/node_modules/npm/bin/node-gyp-bin:/Users/bryan/.nvm/versions/node/v12.16.1/bin/node_modules/npm/bin/node-gyp-bin:/Users/bryan/.nvm/versions/node/v12.16.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Users/bryan/Library/Android/sdk/emulator:/Users/bryan/Library/Android/sdk/tools:/Users/bryan/Library/Android/sdk/tools/bin:/Users/bryan/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.15.2
+
+Node version: 
+  12.16.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@bkbkbk%2fshared: Not found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.15.2/libexec/lib/cli.js:66058:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.15.2/libexec/lib/cli.js:129541:22)
+      at Request.emit (events.js:311:20)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.15.2/libexec/lib/cli.js:130513:10)
+      at Request.emit (events.js:311:20)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.15.2/libexec/lib/cli.js:130435:12)
+      at Object.onceWrapper (events.js:417:28)
+      at IncomingMessage.emit (events.js:323:22)
+      at endReadableNT (_stream_readable.js:1204:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "@bkbkbk/a",
+    "version": "1.0.0",
+    "description": "> TODO: description",
+    "author": "bryankang <user@example.com>",
+    "homepage": "",
+    "license": "MIT",
+    "main": "lib/a.js",
+    "directories": {
+      "lib": "lib",
+      "test": "__tests__"
+    },
+    "files": [
+      "lib"
+    ],
+    "publishConfig": {
+      "registry": "https://registry.yarnpkg.com"
+    },
+    "scripts": {
+      "start": "node lib/a.js",
+      "test": "echo \"Error: run tests from root\" && exit 1"
+    },
+    "dependencies": {
+      "@bkbkbk/shared": "^0.0.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -21,6 +21,6 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "shared": "^0.0.0"
+    "@bkbkbk/shared": "^1.0.0"
   }
 }
