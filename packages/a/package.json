@@ -22,7 +22,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@bkbkbk/shared": "^1.0.0"
+    "@bkbkbk/shared": "^1.0.7"
   },
   "gitHead": "cccadf60cd844bdf9bb374b4908a8328d2684669"
 }
